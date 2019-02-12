@@ -13,6 +13,9 @@ public void draw()
   noStroke();
   ellipse(158,205,18,18);
   ellipse(207,158,18,18);
+  fill(0);
+  ellipse(158,205,10,10);
+  ellipse(207,158,10,10);
 
 }
 public void myFractal(int x, int y, int siz){
